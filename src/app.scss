@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./components/modal/modal.scss";
+@import "./components/canvas/canvas.scss";
+
+header {
+  @apply mb-14;
+}
+
+.modal-button {
+  @apply py-3 px-4 border-none rounded-xl font-normal not-italic text-base text-white bg-primary;
+}
